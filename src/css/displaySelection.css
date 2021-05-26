@@ -1,22 +1,14 @@
 @import url("../fonts/WEB/stylesheet.css");
 
 .displaySelection__div {
-  background-color: #ffaa27;
-  border-radius: 50px;
-  width: 30%;
+  width: 100%;
   /* margin-top: 0; */
-  margin-left: 17%;
-  padding: 1%;
+  padding: 0% 0% 0% 5%%;
   font-family: "The Farmer Textured";
-  font-size: 50px;
-  margin-top: -20px;
-  margin-bottom: 50px;
-  box-shadow: -10px 10px 15px 1px grey;
 }
 
 .displaySelection__h1 {
-  margin-left: 5%;
-  margin-top: 2%;
+  margin: 2.5% 0% 0% 5%;
 }
 
 @media only screen and (max-width: 600px) {
