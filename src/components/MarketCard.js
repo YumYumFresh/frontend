@@ -13,7 +13,6 @@ const MarketCard = ({ id, marketName }) => {
 
   useEffect(() => {
     axios.get(link).then((response) => {
-      //console.log(response.data.marketdetails.Address);
       setMarketAddress(response.data.marketdetails.Address);
       setMarketLink(response.data.marketdetails.GoogleLink);
       setMarketProducts(response.data.marketdetails.Products);

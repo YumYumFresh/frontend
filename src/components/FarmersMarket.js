@@ -6,10 +6,11 @@ import "../css/farmersMarket.css";
 const FarmersMarket = () => {
   const [markets, setMarkets] = useState([]);
   const [zipcode, setZipcode] = useState("");
+  const zipCodeFromSession = sessionStorage.getItem("userZipCode")
 
   useEffect(() => {
-    setZipcode(sessionStorage.getItem("userZipCode"));
-  }, []);
+    setZipcode(zipCodeFromSession);
+  }, [zipCodeFromSession]);
 
   const handleChange = (e) => {
     setZipcode(e.target.value);
@@ -35,12 +36,10 @@ const FarmersMarket = () => {
           <input
             type="text"
             value={zipcode}
-            defaultValue={sessionStorage.getItem("userZipCode")}
-            placeholder={
-              sessionStorage.getItem("userZipCode")
-                ? sessionStorage.getItem("userZipCode")
-                : "enter your zip code"
-            }
+            // placeholder={
+            //   "enter your zip code"
+            // }
+            //defaultValue={}
             onChange={handleChange}
             style={{
               width: "45%",
