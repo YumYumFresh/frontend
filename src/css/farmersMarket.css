@@ -38,15 +38,15 @@
 
 @media only screen and (max-width: 600px){
     .farmersMarket__div{
-       width: 300px;
+       width: 100%;
     }
 
     .fmForm{
-        
+        font-size: 3vw;
     }
 
     .farmers__button{
-        width: 25%;
+        width: 45%;
         margin-bottom: 20px; 
         margin-right: 0px !important;
         
