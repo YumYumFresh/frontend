@@ -44,7 +44,7 @@ const FarmersMarket = () => {
             style={{
               width: "45%",
               borderRadius: "10px",
-              fontSize: "125%",
+              fontSize: "1.5vw",
               textDecoration: "none",
               outline: "none",
               textIndent: "5px",

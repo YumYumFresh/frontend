@@ -2,13 +2,13 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 0% 5%;
+    margin: 4% 5% 20%;
     padding: 3% 5%;
     box-shadow: -10px 10px 20px 1px grey;
     background-color: #fff8fa;
     border: none;
     border-radius: 20px;
-    font-size: large;
+    font-size: 1.5vw;
 }
 
 .fmForm {
@@ -17,6 +17,7 @@
   justify-content: space-evenly;
   width: 100%; 
   color:#fff8fa;
+  font-size: 1.5vw;
 }
 
 .farmers__button{
@@ -38,14 +39,17 @@
 
 @media only screen and (max-width: 600px){
     .farmersMarket__div{
-       width: 300px;
+       width: 100%;
+       margin: 4% 2% 20% 2%;
+
     }
 
     .fmForm{
+        font-size: 3vw;
     }
 
     .farmers__button{
-        width: 25%;
+        width: 45%;
         margin-bottom: 20px; 
         margin-right: 0px !important;
         

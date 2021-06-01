@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../css/cards.css";
 import axios from "axios";
 import ProduceCard from "./ProduceCard";
+import DisplaySelection from "./DisplaySelection"
 
 
 const Cards = (props) => {
@@ -23,6 +24,7 @@ const Cards = (props) => {
 
   return (
     <div className="cards__div">
+      <DisplaySelection />
       {produceData.map((prod) => {
         return <ProduceCard prod={prod} />;
       })}

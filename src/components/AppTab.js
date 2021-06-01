@@ -91,7 +91,7 @@ const AppTab = () => {
 
   return (
     <div >
-      <DisplaySelection />
+      {/* <DisplaySelection /> */}
       <Tab.Container id="left-tabs-example" defaultActiveKey="first">
         <Row>
           <Col sm={3} lg={2} style={{ marginTop: 0 }}>

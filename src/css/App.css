@@ -10,6 +10,9 @@
   .App {
    
   }
+  .app__content {
+    margin: 3% 1% 10% 1%;
+  }
 }
 
 .app__extraSpace{
@@ -17,10 +20,7 @@
 }
 
 .app__content {
-  margin: 2%;
-  margin-bottom: 20%;
-  margin-top: 3%;
-  padding: 1%;
+  margin: 3% 7% 20% 7%;
 }
 
 
