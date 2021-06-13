@@ -9,7 +9,7 @@ import MonthsModals from "./MonthsModals";
 import StateModals from "./StateModals";
 import Geolocation from "./Geolocation";
 import Cards from "./Cards";
-import DisplaySelection from "./DisplaySelection";
+// import DisplaySelection from "./DisplaySelection";
 
 const AppTab = () => {
   const [statessModalShow, setStatessModalShow] = useState(false);
