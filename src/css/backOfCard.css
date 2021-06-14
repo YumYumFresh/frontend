@@ -42,12 +42,11 @@
     background-color: white;
    
     height:fit-content;
-    width: 400px;
    
 }
 
 .backOfCard__monthDiv{   
-   margin: 1%; 
+   margin: 1% -4%; 
    width: 110%;
 }
 
